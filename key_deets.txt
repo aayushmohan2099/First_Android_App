@@ -1,0 +1,27 @@
+PS C:\Users\VIVEKHOME\Desktop\RN\First> keytool -genkeypair -v -storetype PKCS12 -keystore my-release-key.keystore -alias my_key_alias -keyalg RSA -keysize 2048 -validity 10000
+Enter keystore password:  
+1234
+Keystore password is too short - must be at least 6 characters
+Enter keystore password:  
+123456
+Re-enter new password: 
+123456
+What is your first and last name?
+  [Unknown]:  ayush
+What is the name of your organizational unit?
+  [Unknown]:  bdo
+What is the name of your organization?
+  [Unknown]:  technohorizon
+What is the name of your City or Locality?
+  [Unknown]:  lucknow
+What is the name of your State or Province?
+  [Unknown]:  uttar pradesh
+What is the two-letter country code for this unit?
+  [Unknown]:  IN
+Is CN=ayush, OU=bdo, O=technohorizon, L=lucknow, ST=uttar pradesh, C=IN correct?
+  [no]:  yes
+
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 10,000 days
+        for: CN=ayush, OU=bdo, O=technohorizon, L=lucknow, ST=uttar pradesh, C=IN
+[Storing my-release-key.keystore]
+PS C:\Users\VIVEKHOME\Desktop\RN\First> 
