@@ -1,4 +1,9 @@
 {
   "name": "First",
-  "displayName": "First"
+  "displayName": "First",
+  "extra": {
+    "eas": {
+      "projectId": "830d8dc3-fd82-4e2f-8dc2-ddd39848c9f7"
+    }
+  }
 }
